@@ -1,6 +1,6 @@
 :root {
   --branding-color: #ac9eb8;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #effcfc;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --hover-color: #7f6793;
@@ -216,7 +216,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
+  color: var(--secondary-color);
   background: var(--branding-color);
 }
 
