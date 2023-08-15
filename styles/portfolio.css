@@ -220,6 +220,18 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+footer .open-sourced-link {
+  color: var(--link-text-color) !important;
+}
+
+footer .github-link {
+  color: var(--branding-color);
+}
+
+footer .github-link:hover {
+  color: var(--hover-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -246,5 +258,9 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 14px;
+  }
+
+  footer p {
+    text-align: center;
   }
 }
