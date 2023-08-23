@@ -220,10 +220,6 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
-footer .open-sourced-link {
-  color: var(--link-text-color) !important;
-}
-
 footer .github-link {
   color: var(--branding-color);
 }
