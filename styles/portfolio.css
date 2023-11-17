@@ -1,7 +1,8 @@
 :root {
   --branding-color: #ac9eb8;
   --secondary-color: #effcfc;
-  --heading-font-family: "Playfair Display", serif;
+  --heading-color: #3a7198;
+  --heading-font-family: "Bricolage Grotesque", sans-serif;
   --default-font-family: "Poppins", sans-serif;
   --hover-color: #7f6793;
   --link-text-color: #64656a;
@@ -11,17 +12,18 @@ body {
   font-family: var(--default-font-family);
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: #504449;
   font-family: var(--heading-font-family);
 }
 
 h1 {
+  color: var(--heading-color);
+  font-family: var(--heading-font-family);
   font-size: 96px;
   line-height: 1.5;
 }
@@ -100,6 +102,10 @@ p a:hover {
   margin: 30px;
 }
 
+.contact-link {
+  font-size: 18px;
+}
+
 .jen-photo {
   border-radius: 20px;
 }
@@ -143,7 +149,13 @@ p a:hover {
   max-width: 45px;
 }
 
+.nav-container {
+  margin: 0 0;
+}
+
 nav {
+  max-width: 100%;
+  background-color: var(--secondary-color);
   padding: 15px;
 }
 
@@ -197,7 +209,7 @@ footer .footer-button {
 footer .email-link {
   text-decoration: none;
   color: var(--link-text-color);
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -228,10 +240,14 @@ footer .github-link:hover {
   color: var(--hover-color);
 }
 
+footer .coded-by {
+  font-size: 12px;
+}
+
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
-    line-height: 56px;
+    font-size: 52px !important;
+    line-height: 56px !important;
   }
 
   h2 {

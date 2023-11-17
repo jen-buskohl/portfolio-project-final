@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Jen is a front-end developer based in Oregon - US"
+      content="Jen is a front-end developer based in Bend, Oregon"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -14,8 +14,10 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,500&family=Pompiere&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Voltaire&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
@@ -33,131 +35,56 @@
     <title>Front-end Developer | Jen Buskohl</title>
   </head>
   <body>
-    <div class="container">
+    <div class="nav-container">
       <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage"
+        <a href="index.html" title="Homepage"
           ><img src="images/logo.png" class="logo" alt="Cat Logo"
         /></a>
         <ul>
-          <li class="active"><a href="/" title="Homepage">Home</a></li>
-          <li><a href="/about.html" title="About Page">About</a></li>
-          <li><a href="/work.html" title="Work Page">Work</a></li>
-          <li><a href="/contact.html" title="Contact Page">Contact</a></li>
+          <li class="active" title="Home Page">
+            <a href="about.html">Home</a>
+          </li>
+          <li><a href="work.html" title="Work Page">Work</a></li>
+          <li><a href="contact.html" title="Contact Page">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="hero">
-      <p>Hello! I am</p>
-      <h1>Jen Buskohl</h1>
-      <h2 class="mb-3">Junior front-end developer based in Oregon</h2>
-      <div>
-        <a href="/contact.html" class="btn btn-branding" title="Contact Jen"
-          >Contact Me</a
-        >
-      </div>
-    </div>
-    <p class="text-center m-5">Below are some of my featured projects</p>
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/dictionary.png"
-            class="img-fluid"
-            alt="dictionary project preview"
-          />
-        </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Dictionary Project</h2>
-            <p class="mb-4 text-muted">
-              This was a really fun application to build! I used React to create
-              this.
+    <div class="content-container container">
+      <div class="content">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="mb-4">Hi! I am Jen Buskohl</h1>
+            <h2 class="mb-4">Junior front-end Developer</h2>
+            <p class="mb-4">
+              I live in Bend, Oregon with my husband and two cats. In my free
+              time I love to hang out at home and watch movies/TV or read. I
+              also really enjoy fitness. When I am feeling outdoorsy, my
+              favorite things to do are kayaking and hiking.
+              <br />
+              <br />
+              I'm currently seeking new opportunities in front-end development.
+              I'm open to work remotely and have flexible hours. I'm highly
+              skilled in HTML, CSS, JavaScript, React, and Bootstrap.
             </p>
             <a
-              href="/work.html"
-              class="btn btn-branding-outline"
-              title="Learn More"
-              >Learn More</a
+              href="work.html"
+              class="btn btn-branding mb-4"
+              title="My projects"
+              >See my projects</a
             >
           </div>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Weather App</h2>
-            <p class="mb-4 text-muted">
-              This application explores a favorite hobby of mine - weather! I
-              used React to create this project.
-            </p>
-            <a
-              href="/work.html"
-              class="btn btn-branding-outline"
-              title="Learn More"
-              >Learn More</a
-            >
-          </div>
-        </div>
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/weather.png"
-            class="img-fluid"
-            alt="weather project preview"
-          />
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/world-clock.png"
-            class="img-fluid"
-            alt="world clock project preview"
-          />
-        </div>
-        <div class="col mb-5">
-          <div class="project-description">
-            <h2 class="mb-5">World Clock App</h2>
-            <p class="mb-4 text-muted">
-              This world clock project was coded using HTML, CSS, and
-              JavaScript.
-            </p>
-            <a
-              href="/work.html"
-              class="btn btn-branding-outline"
-              title="Learn More"
-              >Learn More</a
-            >
-          </div>
-        </div>
-        <div class="row mt-5 mb-0">
-          <div class="col">
-            <div class="project-description">
-              <h2 class="mb-5">Taylor Swift Site</h2>
-              <p class="mb-4 text-muted">
-                I created this page while learning about responsive websites. I
-                am a major Swiftie and couldn't have come up with a better topic
-                to explore the world of responsiveness!
-              </p>
-              <a
-                href="/work.html"
-                class="btn btn-branding-outline"
-                title="Learn More"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div class="col d-none d-lg-block">
+          <div class="col-lg-6">
             <img
-              src="images/taylor-swift.png"
-              class="img-fluid border border-light-subtle"
-              alt="taylor swift preview"
+              src="images/jen-photo.png"
+              alt=""
+              class="img-fluid jen-photo"
             />
           </div>
         </div>
       </div>
       <footer>
         <div
-          class="contact-box d-flex justify-content-between mb-5 mt-0 d-none d-md-flex"
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
             <h3>Work Inquiry</h3>
@@ -165,7 +92,7 @@
           </div>
           <div>
             <a
-              href="/contact.html"
+              href="contact.html"
               class="btn btn-branding mt-3 footer-button"
               title="Contact Jen"
               >Contact Me</a
@@ -196,7 +123,7 @@
           ></a>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <p>
+          <p class="coded-by">
             🦄 This website was coded by Jen Buskohl, and is
             <a
               href="https://github.com/jen-buskohl/portfolio-project-final.git"

@@ -11,8 +11,10 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,500&family=Pompiere&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Voltaire&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
@@ -30,23 +32,22 @@
     <title>Contact Jen Buskohl</title>
   </head>
   <body>
-    <div class="container">
+    <div class="nav-container">
       <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage"
+        <a href="index.html" title="Homepage"
           ><img src="images/logo.png" class="logo" alt=" Cat Logo"
         /></a>
         <ul>
-          <li><a href="/" title="Homepage">Home</a></li>
-          <li><a href="/about.html" title="About Page">About</a></li>
-          <li><a href="/work.html" title="Work Page">Work</a></li>
+          <li><a href="index.html" title="Home Page">Home</a></li>
+          <li><a href="work.html" title="Work Page">Work</a></li>
           <li class="active">
-            <a href="/contact.html" title="Contact Page">Contact</a>
+            <a href="contact.html" title="Contact Page">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
     <div class="content-container container">
-      <div class="content">
+      <div class="content text-center">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
@@ -54,6 +55,7 @@
             href="mailto:jmbuskohl@outlook.com"
             target="_blank"
             title="Email Jen"
+            class="contact-link"
             >jmbuskohl@outlook.com</a
           >
         </p>
@@ -63,63 +65,32 @@
             href="https://linkedin.com/in/jen-buskohl"
             target="_blank"
             title="LinkedIn Profile"
+            class="contact-link"
             >jen-buskohl</a
           >
         </p>
-      </div>
-      <footer>
-        <div
-          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
-        >
-          <div>
-            <h3>Work Inquiry</h3>
-            <p class="text-muted">Let's work together!</p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn btn-branding mt-3 footer-button"
-              title="Contact Jen"
-              >Contact Me</a
-            >
-          </div>
-        </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a
-            href="mailto:jmbuskohl@outlook.com"
-            class="email-link"
-            target="_blank"
-            title="Email Jen"
-            >jmbuskohl@outlook.com</a
-          >
-        </div>
-        <div class="social-links d-flex justify-content-center mb-5">
-          <a
-            href="https://www.linkedin.com/in/jen-buskohl"
-            target="_blank"
-            title="LinkedIn Profile"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+        <h3>GitHub</h3>
+        <p>
           <a
             href="https://github.com/jen-buskohl"
             target="_blank"
             title="GitHub Profile"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </div>
-        <div class="d-flex justify-content-center mb-5">
-          <p>
-            🦄 This website was coded by Jen Buskohl, and is
-            <a
-              href="https://github.com/jen-buskohl/portfolio-project-final.git"
-              class="github-link"
-              target="_blank"
-              title="GitHub Repository"
-              >open-sourced.</a
-            >
-          </p>
-        </div>
-      </footer>
+            class="contact-link"
+            >jen-buskohl</a
+          >
+        </p>
+        <h3>Resume</h3>
+        <p>
+          <a
+            href="src/Jen-Buskohl-Resume.pdf"
+            download="Jen-Buskohl-Resume"
+            target="_blank"
+            title="Resume"
+            class="contact-link"
+            >View/Download Here</a
+          >
+        </p>
+      </div>
     </div>
   </body>
 </html>
